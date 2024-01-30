@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.WayVistaAnAndroidApplication" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="fontFamily">@font/lemonada</item>
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="colorPrimary">@color/primary</item>
+    </style>
+    <style name="Theme.WayVistaAnAndroidApplication" parent="Base.Theme.WayVistaAnAndroidApplication">
+        <item name="fontFamily">@font/lemonada</item>
+    </style>
+    <style name="MenuItemFont" parent="Base.Theme.WayVistaAnAndroidApplication">
+        <item name="android:fontFamily">@font/lomonada</item>
+    </style>
+</resources>

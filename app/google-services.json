@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1009157433504",
+    "project_id": "map-integration-7ddfc",
+    "storage_bucket": "map-integration-7ddfc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009157433504:android:cc3a55333a23b6c116c1c5",
+        "android_client_info": {
+          "package_name": "com.example.wayvistaanandroidapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzjKt6oj3WZ2LevflSDOCn2gxU8sryp2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

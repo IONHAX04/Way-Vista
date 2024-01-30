@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:id="@+id/template"
+    android:background="@drawable/edit_text"
+    android:padding="10dp"
+    tools:ignore="MissingDefaultResource">
+
+    <ImageView
+        android:id="@+id/recent"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="10dp"
+        android:src="@drawable/destination" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/recent"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:text="Location"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/lat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/location"
+        android:layout_toRightOf="@id/recent"
+        android:paddingLeft="10dp"
+        android:text="Location"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/lon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lat"
+        android:layout_toRightOf="@id/recent"
+        android:paddingLeft="10dp"
+        android:text="Location"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

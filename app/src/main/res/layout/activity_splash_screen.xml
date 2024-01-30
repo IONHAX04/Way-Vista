@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    android:gravity="center_vertical"
+    tools:context=".SplashScreenActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/bg_img_intro"
+        android:id="@+id/logo"
+        android:contentDescription="@string/introimg" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:id="@+id/introText"
+        android:textColor="@color/black"
+        android:text="@string/way_vista"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/lomonada"
+        android:textSize="30sp"
+        android:gravity="center_horizontal" />
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:indeterminateTint="@color/black"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_below="@id/introText"
+        android:layout_marginTop="80dp"/>
+
+
+</RelativeLayout>
